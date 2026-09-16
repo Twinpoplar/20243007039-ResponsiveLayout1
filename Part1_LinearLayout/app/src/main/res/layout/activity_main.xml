@@ -13,6 +13,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/black"
         android:text="Lab1" />
     <TextView
         android:layout_width="match_parent"
@@ -29,24 +31,31 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@color/red"
+            android:textColor="@color/white"
             android:gravity="center"
             android:text="This" />
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@color/blue"
+            android:textColor="@color/white"
             android:gravity="center"
             android:text="is" />
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@color/purple"
+            android:textColor="@color/white"
             android:gravity="center"
             android:text="my" />
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@color/yellow"
             android:gravity="center"
             android:text="first" />
     </LinearLayout>
@@ -54,6 +63,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
+        android:textColor="@color/white"
+        android:background="@color/black"
         android:gravity="center"
         android:text="Android Application" />
     <LinearLayout
@@ -63,7 +74,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_margin="10dp"
+            android:layout_margin="15dp"
             android:layout_weight="1"
             android:text="Change">
         </Button>
@@ -71,7 +82,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_margin="10dp"
+            android:layout_margin="15dp"
             android:layout_weight="1"
             android:text="Cancel">
         </Button>
